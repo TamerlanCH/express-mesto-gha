@@ -1,9 +1,7 @@
-const ERROR_CODE = 400;
-const ERROR_NOT_FOUND = 404;
-const ERROR_SERVER = 500;
+const JWT_SECRET = 'mysecretkey';
+const URL_REGEXP = /^https?:\/\/(?:www\.)?\w[\w-]*(?:\.\w+)+[\w-]*[\\/#?]?$/;
 
 module.exports = {
-  ERROR_CODE,
-  ERROR_NOT_FOUND,
-  ERROR_SERVER,
+  JWT_SECRET,
+  URL_REGEXP,
 };
